@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Hugging Face / model
+huggingface/
+models/
+
+# Training output
+output/
+checkpoints/
+runs/
+
+# Large model files
+*.bin
+*.safetensors
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+*.log
+
+# VS Code
+.vscode/

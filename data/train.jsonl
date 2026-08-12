@@ -1,0 +1,4 @@
+{"messages":[{"role":"user","content":"打开客厅灯"},{"role":"assistant","content":"好的，正在打开客厅灯。"}]}
+{"messages":[{"role":"user","content":"把卧室空调调到24度"},{"role":"assistant","content":"好的，已将卧室空调设置为24度。"}]}
+{"messages":[{"role":"user","content":"我要睡觉了"},{"role":"assistant","content":"好的，我会关闭客厅灯、关闭电视，并检查门锁状态。"}]}
+{"messages":[{"role":"user","content":"我觉得有点冷"},{"role":"assistant","content":"我可以适当提高空调设定温度。"}]}

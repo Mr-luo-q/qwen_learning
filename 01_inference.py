@@ -27,10 +27,27 @@ text = tokenizer.apply_chat_template(
     enable_thinking=False
 )
 
+print("===== Chat Template结果 =====")
+print(repr(text))
+
+text2 = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=False,
+    enable_thinking=False
+)
+
+print("===== 不加 generation prompt =====")
+print(repr(text2))
+
+
+
 inputs = tokenizer(
     text,
     return_tensors="pt"
 ).to(model.device)
+
+
 
 print("开始生成...")
 
