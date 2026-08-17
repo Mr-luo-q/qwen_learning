@@ -1,0 +1,7 @@
+# 云端 GPU 环境依赖（在服务器上：pip install -r requirements.txt）
+torch>=2.1
+transformers>=4.46
+trl>=0.16
+peft>=0.13
+datasets>=2.20
+accelerate>=0.34
